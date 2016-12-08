@@ -14,6 +14,7 @@ import java.util.Scanner;
  */
 public class Perhitungan_dasar {
 
+    
     /**
      * @param args the command line arguments
      */
@@ -22,6 +23,7 @@ public class Perhitungan_dasar {
         int nilai1, nilai2;
               double hasiljumlah;
               double hasilkurang;
+              double hasilkali;
               
               Scanner DataIn = new Scanner(System.in);
               System.out.print("Masukan angka ke-1: ");
@@ -32,11 +34,15 @@ public class Perhitungan_dasar {
 
               hasiljumlah = nilai1+nilai2;
               hasilkurang = nilai1-nilai2;
+              hasilkali = nilai1*nilai2;
               
               System.out.print("Penjumlahan \n"); 
               System.out.println("Hasil penjumlahan: " + hasiljumlah);
               
               System.out.print("Pengurangan \n"); 
               System.out.println("Hasil pengurangan: " + hasilkurang);
+              
+              System.out.print("Perkalian \n"); 
+              System.out.println("Hasil perkalian: " + hasilkali);
     }
 }
