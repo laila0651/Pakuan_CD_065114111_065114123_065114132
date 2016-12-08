@@ -21,7 +21,8 @@ public class Perhitungan_dasar {
         // TODO code application logic here
         int nilai1, nilai2;
               double hasiljumlah;
-                      
+              double hasilkurang;
+              
               Scanner DataIn = new Scanner(System.in);
               System.out.print("Masukan angka ke-1: ");
               nilai1 = DataIn.nextInt();
@@ -30,8 +31,12 @@ public class Perhitungan_dasar {
               nilai2 = DataIn.nextInt();
 
               hasiljumlah = nilai1+nilai2;
-                            
+              hasilkurang = nilai1-nilai2;
+              
               System.out.print("Penjumlahan \n"); 
               System.out.println("Hasil penjumlahan: " + hasiljumlah);
+              
+              System.out.print("Pengurangan \n"); 
+              System.out.println("Hasil pengurangan: " + hasilkurang);
     }
 }
